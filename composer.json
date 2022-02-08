@@ -1,0 +1,33 @@
+{
+    "name": "pro911/php-util",
+    "type": "library",
+    "keywords": [
+        "php",
+        "util",
+        "helps"
+    ],
+    "description": "这是一个助手函数库",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pro911\\PhpUtil\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/pro911/php-util/issues"
+    },
+    "require": {
+        "php": ">=7.3"
+    },
+    "authors": [
+        {
+            "name": "pro911",
+            "email": "pro911@qq.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "require": {}
+}
